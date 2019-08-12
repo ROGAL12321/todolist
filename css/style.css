@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .app {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Arial';
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -16,17 +21,11 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .title {
   /* font-family: "Major Mono Display", monospace; */
   font-weight: 400;
   color: #3c3c3c;
+  margin-bottom: 20px;
 }
 
 .inputBar {
@@ -58,6 +57,7 @@
 
 .todo {
   width: 440px;
+  list-style: none;
 }
 
 .taskCard {
@@ -65,34 +65,4 @@
   border: 1px solid #3c3c3c;
   border-radius: 5px;
   padding: 10px;
-}
-
-.textBlock {
-  font-size: 15px;
-  font-family: 'Major Mono Display', monospace;
-  width: 200px;
-  word-wrap: break-word;
-}
-
-.removeButton {
-  font-family: 'Major Mono Display', monospace;
-  width: 70px;
-  height: 30px;
-  margin-right: 5px;
-}
-
-.doneButton {
-  font-family: 'Major Mono Display', monospace;
-  width: 55px;
-  height: 30px;
-  margin-left: 5px;
-}
-
-.tasksSegment {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 15px;
-}
-
-.done {
-  margin-top: 50px;
 }
